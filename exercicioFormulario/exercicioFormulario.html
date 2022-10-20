@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <header>
+        
+        <H2>Apresentando os mais diversos campos de formularios do HTML-5</H2>
+        <hr>
+    </header>
+        <section>
+            
+            <h3>Formulário através tipo text e email de input</h3>
+            <br>
+            <label for="search"></label>
+            <input type="search" id="search" placeholder="Tipo de campo search">
+            ou 
+            <label for="url"></label>
+            <input type="url" id="url" placeholder="Tipo de campo url">
+            <p></p>
+            <form>
+                <fieldset>
+                <legend>Indique o seu nome e seu E-mail!</legend>
+                <div style="display:block">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Tipo de campo text">
+                    <label for="sobrenome">Sobrenome</label> 
+                    <input type="text" id="sobrenome" placeholder="Tipo de campo text">
+                </div>
+                <br>
+                <div style="display: block;">
+                    <label for="email"> E-mail </label>
+                    <input type="email" id="email" placeholder="Tipo de campo email">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Tipo de campo password">
+                </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <p>Sexo</p>
+                    <div style="display: block ;">
+                    <input type="radio" id="radio1">
+                    <label for="radio1">Masculino</label>
+                    <input type="radio" id="radio2">
+                    <label for="radio2">Feminino</label>
+                    <input type="radio" id="radio3">
+                    <label for="radio3">Outro</label>
+                    <input type="text">
+                    </div>
+                    <p></p>
+                    <div style="display: block;">
+                        <p>Sua idade:</p>
+                        <label for="number"></label>
+                        <input type="number" id="number" min="1" max="150">
+                        <p>Seu Telefone:</p>
+                        <label for="tel"></label>
+                        <input type="tel" id="tel">
+                    </div>
+                    <p></p>
+                    <div>
+                        <p>Possui necessidade especial?</p>
+                        <input type="checkbox" id="check1">
+                        <label for="check1">Sim</label>
+                        <input type="checkbox" id="check1">
+                        <label for="check1">Não</label>
+
+                        <p>Selecione a sua cor de pele!</p>
+                        <label for="color"></label>
+                        <input type="color" value="#000000" id="color">
+                        
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset >
+                    <div
+                        <p>Qual o dia do seu  nascimento?</p>
+                        <label for="date"></label>
+                        <input type="date" id="date">
+
+                        <p>Já defina quando que você vai voltar para este site!</p>
+                        <p>Lembrete</p>
+                        <label for="dtl"></label>
+                        <input type="datetime-local" id="dtl">
+                        <br><br>ou
+                        <p>Alarme</p>
+                        <label for="time"><input type="time"></label>
+                        <input type="time" id="time">
+                        <label for="week"></label>
+                        <input type="week" id="week">
+                        <label for="month"></label>
+                        <input type="month" id="month">
+
+                    </div>
+                </fieldset>
+                <div>
+                <p>De 0 a 10 quanto você aprecia estes forms html</p>
+                <label for="range"></label>
+                <input type="range" id="range" min="1" max="10">
+                <label for="hiden"></label>
+                <input type="hidden" id="hiden" placeholder="Olá amiguinhos dev">
+                </div>
+                <div>
+                <p>Nos envie projetos html</p>
+                <label for="file"></label>
+                <input type="file" id="file">
+                <label for="button"></label>
+                <input type="button" id="button" value="Enviar">
+                </div>
+                <div>
+                    <p>Enviar formularios</p>
+                    <label for="image"></label>
+                    <input type="image" src="imagens/a.png" width="20px" height="20px">
+                    <label for="submit"></label>
+                    <input type="submit" id="submit">
+                    ou resete seus dados
+                    <label for="reset"></label>
+                    <input type="reset" id="reset">
+                </div>
+            </form>
+        </section>
+        <br>
+        <hr>
+    <footer>
+        EEEP Amélia Figueiredo de Lavor- &copy; 
+    </footer>    
+</body>
+</html>
